@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Price Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main_c">
+    <div class="top_c">
+      <h4 class="heade">Join our community</h4>
+      <h6 class="sub">30-Day hassle free money back guarantee</h6>
+      <p class="bodytext">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developer who are serious about honing their skills</p>
+    </div>
+    <div class="lower_c">
+      <div class="left_c">
+         <h6 id="sub">Monthly Subscription</h6>
+      <div class="money" id="mon">
+        <div id="valu">
+          <strong><strong>$29</strong></strong>
+        </div>
+        <div id="per">
+          per month 
+        </div>
+      </div>
+      <p class="full" id="acce">full access for less than $1 a day</p>
+      <button onclick="alertMe()">Sign Up</button>
+      </div>
+      <div class="right_c">
+        <h6 id="why">Why Us</h6>
+        <ul class="my_lists">
+          <li>Tutorials by industry experts</li>
+          <li>Peer and expert code review</li>
+          <li>Coding exercises</li>
+          <li>Access to our GitHub repos</li>
+          <li>Community forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
